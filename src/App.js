@@ -1,15 +1,11 @@
 import './App.css';
+import React from 'react';
+import LayoutHome from './container/layout/Index';
 
-function App() {
-  return (
-    <div className="App">
-      <div>
-      <h1>Girish Kumar</h1>
-      <h1>Xencov Software</h1>
-      <h1>Software Engineer</h1>
-      <h1>Nitian</h1>
-      </div>
-    </div>
-  );
+const App=(props)=>{
+    return (
+      <LayoutHome/>
+    );
 }
+
 export default App;
