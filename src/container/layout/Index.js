@@ -11,6 +11,7 @@ import {
     UploadOutlined,
     VideoCameraOutlined, LaptopOutlined, NotificationOutlined,
 } from '@ant-design/icons';
+// import SliderToBox from '../../components/sliderToBox/sliderToBox';
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
@@ -33,7 +34,10 @@ function LayoutHome(props) {
                     justifyContent:"center",
                     textAlign: "center",
                 }}><h1 style={{ textAlign:'center', color:'white'}}>GIRISH</h1></div>
-                <Menu mode="inline" defaultSelectedKeys={['4']}>
+                <Menu mode="inline" defaultSelectedKeys={['0']}>
+                <Menu.Item key="0" icon={<UserOutlined />}>
+                        nav 0
+                    </Menu.Item>
                     <Menu.Item key="1" icon={<UserOutlined />}>
                         nav 1
                     </Menu.Item>
